@@ -21,6 +21,9 @@ A program elindulása után egy menü fogad minket:
 - Dekódolás: az általunk beírt titkosított szöveget átalakítja  szöveggé.
 - Kilépés: kilép a programból.
 
+Támogatott karakterek: 
+0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!#$%&'()*+,-./:;<=>?@[]^_`{|}~
+
 A titkosítás és dekódolás végeredményéül kapott szöveg automatikusan kimásolódik a vágólapra. Ezt a funkciót a programkód 9. sorában lehet ki/bekapcsolni.
 - ```masolasVagolapra = True```  Másolás vágólapra bekapcsolva (alapértelmezett).
 - ```masolasVagolapra = False``` Másolás vágólapra kikapcsolva. 
@@ -30,3 +33,4 @@ A titkosítás és dekódolás végeredményéül kapott szöveg automatikusan k
 A program egy kezdetleges stádiumban van, rengeteg helyen lehet még fejleszteni. Ilyen lehet például: 
 - Kompatibilissá tevés más rendszerekkel. Megváltoztatni a felhasználóval való kommunikációnak a módját egy grafikus interfésszé. Ez javítana a felhasználói élményen, valamint egy cross-platform, UI keretrendszer lehetővé tenné a más operációs rendszereken való futtatást.
 - Javítani a titkosítási algoritmuson, hogy nehezebben visszafejthető karaktersorozatot generáljon, valamint a titkosított szöveg létrehozásához mindig más szöveg és számkombináció kerüljön felhasználásra. 
+- Támogatott karakterek bővítése.
