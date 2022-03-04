@@ -6,7 +6,7 @@ Titkosító program ciromos titkosítási nyelvhez.
 2021.12.19
 """
 
-masolasVagolapra = True 
+masolasVagolapra = True
 
 from termcolor import cprint, colored
 import pyperclip
@@ -231,6 +231,8 @@ def encryptFunction():
             encryptedText = encryptedText + hashes[90]
         elif text[i] == "~":
             encryptedText = encryptedText + hashes[91]
+        elif text[i] == " ":
+            encryptedText = encryptedText + hashes[92]
     # endregion
     if masolasVagolapra == True:
         pyperclip.copy(encryptedText)
@@ -434,6 +436,8 @@ def decryptFunction():
             text = text + "}"
         elif encryptedText[i:i + 10] == hashes[91]:
             text = text + "~"
+        elif encryptedText[i:i + 10] == hashes[92]:
+            text = text + " "
     # endregion
     if masolasVagolapra == True:
         pyperclip.copy(text)
