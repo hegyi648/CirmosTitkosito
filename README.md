@@ -34,3 +34,7 @@ A program egy kezdetleges stádiumban van, rengeteg helyen lehet még fejleszten
 - Kompatibilissá tevés más rendszerekkel. Megváltoztatni a felhasználóval való kommunikációnak a módját egy grafikus interfésszé. Ez javítana a felhasználói élményen, valamint egy cross-platform UI keretrendszer lehetővé tenné a más operációs rendszereken való futtatást.
 - Javítani a titkosítási algoritmuson, hogy nehezebben visszafejthető karaktersorozatot generáljon, valamint a titkosított szöveg létrehozásához mindig más szöveg és számkombináció kerüljön felhasználásra. 
 - Támogatott karakterek bővítése.
+
+
+Szívesen fogadok bármilyen észrevételt, vagy építő jellegű kritikát. </br>
+✉️ histvan.public@gmail.com
